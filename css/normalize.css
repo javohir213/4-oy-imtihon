@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/alegreya-v26-latin-regular.woff2') format('woff2'),
+    url('../fonts/alegreya-v26-latin-regular.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/alegreya-v26-latin-700.woff2') format('woff2'), 
+    url('../fonts/alegreya-v26-latin-700.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/alegreya-v26-latin-900.woff2') format('woff2'),
+    url('../fonts/alegreya-v26-latin-900.woff') format('woff');
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
